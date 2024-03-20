@@ -1,0 +1,2 @@
+ALTER TABLE payment MODIFY COLUMN credit_card_token VARCHAR(120);
+ALTER TABLE payment MODIFY COLUMN user_document VARCHAR(120);
